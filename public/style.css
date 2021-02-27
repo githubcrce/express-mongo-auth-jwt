@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+}
+.section {
+}
+
+.bg {
+  width: 100%;
+  top: 0px;
+  z-index: -1;
+  position: absolute;
+  height: 1400px;
+  background-size: cover;
+}
+.n-container {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+.navbar-nav {
+  font-weight: 600;
+  font-size: 30px;
+  color: white;
+}
+.navbar-brand {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5em;
+  transform: rotate(-7deg);
+  font-weight: 700;
+  color: white;
+}
+.navbar {
+  width: 80%;
+}
+.nav-item {
+  margin-right: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.infodiv {
+  position: absolute;
+  top: 60%;
+  color: black;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.418);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+h1 {
+  font-size: 80px;
+}
+.s-form {
+  width: 700px;
+  height: 900px;
+  /* border: 2px solid white; */
+  -webkit-box-shadow: 0px 0px 35px 8px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: 0px 0px 35px 8px rgba(0, 0, 0, 0.61);
+  box-shadow: 0px 0px 35px 8px rgba(0, 0, 0, 0.61);
+
+}
+.form-contain {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f-title
+{
+margin-top: 20px;
+font-size: 50px;
+text-align: center;
+color: white;
+font-weight: 700;
+}
+.mainform
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.f-input
+{
+    margin-top: 60px;
+}
+input
+{
+    width: 300px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color:white;
+    font-size: 20px ;
+    margin-left: 10px;
+}
+::-webkit-input-placeholder
+{
+    color: white;
+    opacity: 70%;
+}
+
+.regbtn
+{
+    width: 170px;
+    height: 50px;
+    background-color: transparent;
+    color:white;
+    border:3px solid white;
+    border-radius:30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.regbtn:hover
+{
+    background-color: #212529;
+    border:2px solid black;
+    color:white;
+}
+
+.btn-div
+{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
