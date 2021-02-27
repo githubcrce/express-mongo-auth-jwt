@@ -1,3 +1,3 @@
-Login/Register with ExpressJS and mongoDB.
-Used Validator JS for client side validation.
-Bcrypt JS for encryption.
+Login and Register with ExpressJS and MongoDB 🔥🔥. \n
+Used Validator JS for client side validation.\n
+Bcrypt JS for encryption. 
